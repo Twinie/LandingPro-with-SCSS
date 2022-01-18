@@ -624,8 +624,8 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 1.875rem);
+  padding-left: var(--bs-gutter-x, 1.875rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -656,7 +656,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 3.75rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -4522,7 +4522,7 @@ textarea.form-control-lg {
 }
 
 .card-group > .card {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.875rem;
 }
 @media (min-width: 576px) {
   .card-group {
@@ -5336,7 +5336,7 @@ textarea.form-control-lg {
   pointer-events: none;
 }
 .toast-container > :not(:last-child) {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.875rem;
 }
 
 .toast-header {
@@ -11119,6 +11119,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.container-dms {
+  max-width: 1140px;
+}
+
 .navbar {
   margin: 27px 0;
 }
@@ -11141,6 +11145,25 @@ textarea.form-control-lg {
   border-radius: 10px;
   width: 104px;
   height: 48px;
+}
+
+@media (min-width: 375px) and (max-width: 992px) {
+  .buy-button {
+    margin-left: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1140px) {
+  .container-dms {
+    max-width: 720px;
+  }
+
+  .navbar-brand {
+    margin-right: 85px;
+  }
+
+  .buy-button {
+    margin-left: 110px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
