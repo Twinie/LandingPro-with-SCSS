@@ -8,6 +8,29 @@
 //         }
 //     }
 // }
-.nav-item{
-    padding: 0 4px;
+
+.navbar{
+    margin: 27px 0;
+}
+
+.navbar-nav{  
+    .nav-item{
+        padding-left: 4px;
+        padding-right: 4px;
+        .nav-link{
+            font-size: 17px;
+            color: black;
+        }
+    }
+}
+.navbar-brand{
+    margin-right: 154px;
+}
+.buy-button{
+    margin-left: 200px;
+    
+    border-radius: 10px;
+    width: 104px;
+    height: 48px;
+
 }
