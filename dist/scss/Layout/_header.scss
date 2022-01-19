@@ -1,5 +1,7 @@
 
-
+body{
+    font-family: 'DM Sans', sans-serif;
+}
 
 // .navbar-expand-lg{
 //     .navbar-nav{
@@ -14,7 +16,7 @@ max-width: map-get($container-max-widths, "xl");
 }
 
 .navbar{
-    margin: 27px 0;
+    margin: 27px 0 87px;
 }
 
 .navbar-nav{  
@@ -37,7 +39,11 @@ max-width: map-get($container-max-widths, "xl");
     height: 48px;
 
 }
-
+@media(min-width:375px) and (max-width:452px){
+.navbar-brand{
+    margin-right: 20px;
+}
+}
 @media(min-width:375px) and (max-width:992px){
     
     .buy-button{
@@ -52,6 +58,6 @@ max-width: map-get($container-max-widths, "xl");
             margin-right: 85px;
         }
         .buy-button{
-            margin-left: 110px; 
+            margin-left: 105px; 
         }
 }
