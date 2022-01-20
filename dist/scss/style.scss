@@ -1,11 +1,10 @@
-body{
-    font-family: 'DM Sans', sans-serif;
-}
+
 @import "variables";
-// @include _assert-ascending($container-max-widths, "$container-max-widths");
 
 @import "Bootstrap/bootstrap";
 
 @import "Layout/header";
 
-@import "Layout/first-sect"
+@import "Layout/first-sect";
+
+@import "Layout/sec-sect";
