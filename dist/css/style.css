@@ -11279,6 +11279,46 @@ body {
   color: #8fa3b4;
 }
 
+@media (min-width: 375px) {
+  .first-col .first-col-div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first-col .first-col-div .first-prt {
+    justify-content: center;
+  }
+
+  .ellipse-and-para {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ellipse-and-para .ellipse-image {
+    width: 48px;
+    height: 48px;
+  }
+}
+@media (min-width: 992px) {
+  .first-col {
+    padding: 0;
+  }
+  .first-col .first-col-div {
+    margin-left: 0;
+    padding: 0;
+    text-align: left;
+  }
+  .first-col .first-col-div .first-prt {
+    margin-bottom: 25px;
+    justify-content: flex-start;
+  }
+
+  .ellipse-and-para {
+    margin-left: 0;
+  }
+}
 @media (min-width: 375px) and (max-width: 767px) {
   .sec-col .sec-col-div {
     position: relative;
@@ -11303,10 +11343,10 @@ body {
     z-index: -1;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 990px) {
+@media (min-width: 768px) {
   .sec-col .sec-col-div {
     position: relative;
-    width: 100%;
+    width: 546px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -11326,11 +11366,9 @@ body {
     z-index: -1;
   }
 }
-@media (min-width: 991px) and (max-width: 1138px) {
+@media (min-width: 992px) {
   .sec-col .sec-col-div {
-    position: relative;
-    width: 546px;
-    margin-left: auto;
+    margin-right: 0;
   }
   .sec-col .sec-col-div .abstract-round {
     position: absolute;
@@ -11338,77 +11376,13 @@ body {
     bottom: -45px;
     z-index: -1;
   }
+}
+@media (min-width: 1350px) {
   .sec-col .sec-col-div .abstract-rect {
     position: absolute;
     top: -40px;
-    right: 5px;
+    right: -100px;
     z-index: -1;
-  }
-}
-@media (min-width: 1139px) and (max-width: 1340px) {
-  .sec-col .sec-col-div {
-    position: relative;
-    width: 546px;
-    margin-left: auto;
-  }
-  .sec-col .sec-col-div .abstract-round {
-    position: absolute;
-    bottom: -50px;
-    left: -55px;
-    z-index: -1;
-  }
-  .sec-col .sec-col-div .abstract-rect {
-    position: absolute;
-    top: -40px;
-    right: 5px;
-    z-index: -1;
-  }
-}
-@media (width: 991px) {
-  .first-col .first-col-div {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 100px;
-    padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sec-col {
-    width: 40%;
-  }
-  .sec-col .sec-col-div {
-    width: min-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .sec-col .sec-col-div .abstract-round {
-    display: none;
-  }
-  .sec-col .sec-col-div .main-image {
-    width: 40%;
-  }
-}
-@media only screen and (min-width: 375px) and (max-width: 991px) {
-  .first-col .first-col-div {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 100px;
-    padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .first-col .first-col-div .first-prt {
-    justify-content: center;
-  }
-
-  .ellipse-and-para {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .ellipse-and-para .ellipse-image {
-    width: 48px;
-    height: 48px;
   }
 }
 .row2-dms {
@@ -11421,7 +11395,13 @@ body {
 .row2-dms .row2-first-col .phone {
   width: 495px;
 }
+
+.row2-dms .row2-sec-col .tick-text-container {
+  justify-content: space-around;
+  margin-left: -25px;
+}
 .row2-dms .row2-sec-col .first-prt {
+  justify-content: flex-start;
   margin-bottom: 40px;
 }
 .row2-dms .row2-sec-col .first-prt .green-dot {
@@ -11460,7 +11440,93 @@ body {
   margin-top: 35px;
 }
 
-@media (min-width: 375px) and (max-width: 991px) {
+@media (min-width: 992px) {
+  .row2-dms {
+    font-family: "DM Sans", sans-serif;
+    margin-top: 43px;
+  }
+  .row2-dms .row2-first-col {
+    padding: 0 45px 0 0px;
+  }
+  .row2-dms .row2-first-col .phone {
+    width: 495px;
+  }
+}
+@media (min-width: 375px) {
+  .row2-dms .row2-sec-col {
+    text-align: center;
+  }
+  .row2-dms .row2-sec-col .first-prt {
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .row2-dms .row2-sec-col .tick-text-container {
+    justify-content: center;
+  }
+  .row2-dms .row2-sec-col .tick-text-container .tick-and-text {
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 695px) {
+  .row2-dms .row2-sec-col .tick-text-container {
+    justify-content: center;
+  }
+  .row2-dms .row2-sec-col .tick-text-container .tick-and-text {
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  .row2-dms .row2-sec-col {
+    text-align: left;
+  }
+  .row2-dms .row2-sec-col .tick-text-container {
+    justify-content: space-around;
+    margin-left: -25px;
+  }
+  .row2-dms .row2-sec-col .tick-text-container .tick-and-text {
+    justify-content: left;
+  }
+  .row2-dms .row2-sec-col .first-prt {
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+  .row2-dms .row2-sec-col .first-prt .green-dot {
+    width: 14px;
+    height: 14px;
+    background-color: #3cd278;
+    border-radius: 50%;
+  }
+  .row2-dms .row2-sec-col .first-prt .green-dot-text {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  .row2-dms .row2-sec-col .heading4 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: 0px;
+    vertical-align: -25px;
+  }
+  .row2-dms .row2-sec-col .heading4-text {
+    font-size: 16px;
+    color: #8fa3b4;
+  }
+  .row2-dms .row2-sec-col .tick-and-text {
+    width: 220px;
+  }
+  .row2-dms .row2-sec-col .tick-and-text .tick-text {
+    font-size: 16px;
+    margin: 0 12px;
+  }
+  .row2-dms .row2-sec-col .get-started-button {
+    width: 165px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 35px;
+  }
+}
+@media (min-width: 375px) {
   .row2-dms .row2-first-col {
     padding: 0;
   }
@@ -11471,22 +11537,16 @@ body {
     width: 100%;
   }
 }
-@media (min-width: 991px) and (max-width: 1138px) {
-  .row2-dms .row2-sec-col .tick-text-container {
-    justify-content: space-around;
-    margin-left: -25px;
-  }
-}
-.row3-dms .col-12 .first-prt {
+.row3-dms .col-10 .first-prt {
   margin-bottom: 20px;
 }
-.row3-dms .col-12 .first-prt .green-dot {
+.row3-dms .col-10 .first-prt .green-dot {
   width: 14px;
   height: 14px;
   background-color: #3cd278;
   border-radius: 50%;
 }
-.row3-dms .col-12 .first-prt .green-dot-text {
+.row3-dms .col-10 .first-prt .green-dot-text {
   margin: 0 10px;
   font-size: 14px;
 }

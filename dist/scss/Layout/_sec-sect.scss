@@ -7,10 +7,16 @@
       width: 495px;
     }
   }
+}
 
+.row2-dms {
   .row2-sec-col {
-    //    padding: 0 30px 0 30px;
+    .tick-text-container {
+      justify-content: space-around;
+      margin-left: -25px;
+    }
     .first-prt {
+      justify-content: flex-start;
       margin-bottom: 40px;
       .green-dot {
         width: 14px;
@@ -52,8 +58,107 @@
   }
 }
 
+@media (min-width: 992px) {
+  .row2-dms {
+    font-family: "DM Sans", sans-serif;
+    margin-top: 43px;
+    .row2-first-col {
+      padding: 0 45px 0 0px;
+      .phone {
+        width: 495px;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .row2-dms {
+    .row2-sec-col {
+      text-align: center;
+      .first-prt {
+        justify-content: center;
+        margin-top: 40px;
+      }
+      .tick-text-container {
+        justify-content: center;
+        .tick-and-text {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 695px) {
+  .row2-dms {
+    .row2-sec-col {
+      .tick-text-container {
+        justify-content: center;
+        .tick-and-text {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .row2-dms {
+    .row2-sec-col {
+      text-align: left;
+      .tick-text-container {
+        justify-content: space-around;
+        margin-left: -25px;
+        .tick-and-text {
+          justify-content: left;
+        }
+      }
+      .first-prt {
+        justify-content: flex-start;
+        margin-bottom: 40px;
+        .green-dot {
+          width: 14px;
+          height: 14px;
+          background-color: #3cd278;
+          border-radius: 50%;
+        }
+        .green-dot-text {
+          margin: 0 10px;
+          font-size: 14px;
+        }
+      }
+
+      .heading4 {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 42px;
+        letter-spacing: 0px;
+        vertical-align: -25px;
+      }
+      .heading4-text {
+        font-size: 16px;
+        color: #8fa3b4;
+      }
+      .tick-and-text {
+        width: 220px;
+        .tick-text {
+          font-size: 16px;
+          margin: 0 12px;
+        }
+      }
+      .get-started-button {
+        width: 165px;
+        height: 48px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 35px;
+      }
+    }
+  }
+}
 //media queries
-@media (min-width: 375px) and (max-width: 991px) {
+
+@media (min-width: 375px) {
   .row2-dms {
     .row2-first-col {
       padding: 0;
@@ -66,13 +171,13 @@
     }
   }
 }
-@media (min-width: $tablet-max) and (max-width: 1138px) {
-  .row2-dms {
-    .row2-sec-col {
-      .tick-text-container {
-        justify-content: space-around;
-        margin-left: -25px;
-      }
-    }
-  }
-}
+// @media (min-width: 992px) {
+//   .row2-dms {
+//     .row2-sec-col {
+//       .tick-text-container {
+//         justify-content: space-around;
+//         margin-left: -25px;
+//       }
+//     }
+//   }
+// }

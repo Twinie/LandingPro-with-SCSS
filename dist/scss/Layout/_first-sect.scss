@@ -1,5 +1,11 @@
+$mobile-min: 375px;
+$mobile-max: 575px;
+$minitablet-min: 576px;
+$minitablet-max: 767px;
 $tablet-min: 768px;
 $tablet-max: 991px;
+$desktop-min: 992px;
+$desktop-max: 1200px;
 
 .container1-dms {
   max-width: map-get($container-max-widths, "xl");
@@ -12,7 +18,7 @@ $tablet-max: 991px;
 
 .first-col {
   padding: 0;
-  // margin-left: 148px;
+
   .first-col-div {
     width: 440px;
   }
@@ -113,6 +119,51 @@ $tablet-max: 991px;
 
 //media queries
 
+//first column
+@media (min-width: 375px) {
+  .first-col {
+    .first-col-div {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 100px;
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .first-prt {
+        justify-content: center;
+      }
+    }
+  }
+  .ellipse-and-para {
+    margin-left: auto;
+    margin-right: auto;
+    .ellipse-image {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .first-col {
+    padding: 0;
+    // margin-left: 148px;
+    .first-col-div {
+      margin-left: 0;
+      padding: 0;
+      text-align: left;
+      .first-prt {
+        margin-bottom: 25px;
+        justify-content: flex-start;
+      }
+    }
+  }
+  .ellipse-and-para {
+    margin-left: 0;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 767px) {
   .sec-col {
     .sec-col-div {
@@ -141,11 +192,11 @@ $tablet-max: 991px;
   }
 }
 
-@media only screen and (min-width: $tablet-min) and (max-width: 990px) {
+@media (min-width: $tablet-min) {
   .sec-col {
     .sec-col-div {
       position: relative;
-      width: 100%;
+      width: 546px;
       margin-left: auto;
       margin-right: auto;
 
@@ -168,13 +219,11 @@ $tablet-max: 991px;
   }
 }
 
-@media (min-width: $tablet-max) and (max-width: 1138px) {
+@media (min-width: 992px) {
   .sec-col {
     .sec-col-div {
-      position: relative;
-      width: 546px;
-      margin-left: auto;
-      //    margin-right: auto;
+      // margin-left: auto;
+      margin-right: 0;
 
       .abstract-round {
         position: absolute;
@@ -182,102 +231,19 @@ $tablet-max: 991px;
         bottom: -45px;
         z-index: -1;
       }
+    }
+  }
+}
+
+@media (min-width: 1350px) {
+  .sec-col {
+    .sec-col-div {
       .abstract-rect {
         position: absolute;
         top: -40px;
-        right: 5px;
+        right: -100px;
         z-index: -1;
       }
-    }
-  }
-}
-
-@media (min-width: 1139px) and (max-width: 1340px) {
-  .sec-col {
-    .sec-col-div {
-      position: relative;
-      width: 546px;
-      margin-left: auto;
-      //    margin-right: auto;
-
-      .abstract-round {
-        position: absolute;
-        bottom: -50px;
-        left: -55px;
-        z-index: -1;
-      }
-      .abstract-rect {
-        position: absolute;
-        top: -40px;
-        right: 5px;
-        z-index: -1;
-      }
-    }
-  }
-}
-
-// @media only screen and (min-width: $tablet-min) and (max-width: 990px) {
-//   .sec-col {
-//     .sec-col-div {
-//       position: relative;
-//       // width: 546px;
-//       margin-left: auto;
-//       margin-right: auto;
-//     }
-//   }
-// }
-
-@media (width: 991px) {
-  .first-col {
-    .first-col-div {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 100px;
-      padding: 30px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  .sec-col {
-    width: 40%;
-    .sec-col-div {
-      width: min-content;
-      margin-left: auto;
-      margin-right: auto;
-
-      .abstract-round {
-        display: none;
-      }
-
-      .main-image {
-        width: 40%;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 375px) and (max-width: $tablet-max) {
-  .first-col {
-    .first-col-div {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 100px;
-      padding: 30px;
-      margin-left: auto;
-      margin-right: auto;
-
-      .first-prt {
-        justify-content: center;
-      }
-    }
-  }
-  .ellipse-and-para {
-    margin-left: auto;
-    margin-right: auto;
-    .ellipse-image {
-      width: 48px;
-      height: 48px;
     }
   }
 }
