@@ -1,292 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link rel="stylesheet" href="./dist/css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./dist/css/style.css" />
+  <script src="https://kit.fontawesome.com/46d4e65a16.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-lg justify-content-center container-dms">
-        <a class="navbar-brand" href="#">
-          <img src="./images/logo.png" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
-            <li class="nav-item dropdown">
-              <a
-                class="anchor-tag nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Demos
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Pages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Shop
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-lg justify-content-center container-dms">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item dropdown">
+            <a class="anchor-tag nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Demos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Portfolio
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Portfolio
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Blog
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-                >Doc</a
-              >
-            </li>
-            <li class="nav-item buy-button bg-primary">
-              <a
-                class="nav-link text-white text-center"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Buy Now</a
-              >
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Doc</a>
+          </li>
+          <li class="nav-item buy-button bg-primary">
+            <a class="nav-link text-white text-center" href="#" tabindex="-1" aria-disabled="true">Buy Now</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <div class="container container1-dms">
-      <div class="row align-items-center row-dms">
-        <div class="col-lg-5 first-col">
-          <div class="first-col-div">
-            <div class="d-flex align-items-center first-prt">
-              <div class="green-dot"></div>
-              <p class="green-dot-text">build everything</p>
-            </div>
-
-            <p class="heading3">
-              Amazingly flexible, customizable and easy to use
-            </p>
-            <p class="para1">
-              Build high quality landing pages using Landingpro now.
-            </p>
-            <button class="get-started-button bg-primary text-white">
-              Get Started
-            </button>
-            <div class="d-flex ellipse-and-para">
-              <img src="./images/Ellipse 3.png" alt="" class="ellipse-image" />
-              <img
-                src="./images/Ellipse 3 copy.png"
-                alt=""
-                class="ellipse ellipse-image"
-              />
-              <img
-                src="./images/Ellipse 3 copy 2.png"
-                alt=""
-                class="ellipse ellipse-image"
-              />
-              <p class="para-2">
-                Need help?
-                <span class="text-primary">Contact our Experts</span> Tell us
-                about your project.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7 sec-col">
-          <div class="sec-col-div">
-            <img src="./images/main-image1.png" alt="" class="main-image" />
-            <img src="./images/abstract.png" alt="" class="abstract-round" />
-            <img src="./images/abstract-2.png" alt="" class="abstract-rect" />
-          </div>
-        </div>
-      </div>
-
-      <div class="row row1-dms">
-        <div class="col-lg-4 d-flex flex-column align-items-center">
-          <div class="col-4-dms text-center">
-            <img src="./images/star.png" alt="" class="star mb-3" />
-            <p class="number mt-3">4.86</p>
-            <p class="number-caption">
-              Out of 5 stars from 3896 reviews on google platform
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 d-flex flex-column align-items-center">
-          <div class="col-4-dms text-center">
-            <img src="./images/profile.png" alt="" class="star mb-3" />
-            <p class="number mt-3">364</p>
-            <p class="number-caption">
-              Client testimonials received in year 2021
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 d-flex flex-column align-items-center">
-          <div class="col-4-dms text-center">
-            <img src="./images/office-bag.png" alt="" class="star1 mb-3" />
-            <p class="number mt-3">45M+</p>
-            <p class="number-caption">
-              Revenue generated through new projects and marketing
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!--Second section-->
-
-      <div class="row row2-dms align-items-center">
-        <div class="col-lg-6 row2-first-col">
-          <div class="phone">
-            <img src="./images/phone.png" alt="" class="phone-image" />
-          </div>
-        </div>
-        <div class="col-lg-6 row2-sec-col">
-          <div>
-            <div class="d-flex align-items-center first-prt">
-              <div class="green-dot"></div>
-              <p class="green-dot-text">build everything</p>
-            </div>
-            <p class="heading4 mb-3">
-              Build amazing websites and landing pages with ease
-            </p>
-            <p class="heading4-text mt-3 mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqa. Quis
-              ipsum suspendisse ultrices gravida
-            </p>
-            <div class="tick-text-container d-flex flex-wrap">
-              <div class="d-flex align-items-center mb-3 tick-and-text">
-                <img src="./images/Tick.png" alt="" />
-                <p class="tick-text">Easy drag and drop</p>
-              </div>
-              <div class="d-flex align-items-center mb-3 tick-and-text">
-                <img src=" ./images/Tick.png" alt="" />
-                <p class="tick-text">Create new sections</p>
-              </div>
-              <div class="d-flex align-items-center mb-3 tick-and-text">
-                <img src=" ./images/Tick.png" alt="" />
-                <p class="tick-text">Powered by Elementor</p>
-              </div>
-              <div class="d-flex align-items-center mb-3 tick-and-text">
-                <img src=" ./images/Tick.png" alt="" />
-                <p class="tick-text">Ready to use</p>
-              </div>
-            </div>
-            <button class="get-started-button bg-primary text-white">
-              Get Started
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="row row3-dms justify-content-center">
-        <div class="col-10 text-center">
-          <div
-            class="d-flex align-items-center justify-content-center first-prt"
-          >
+  <div class="container container1-dms">
+    <div class="row align-items-center row-dms">
+      <div class="col-lg-5 first-col">
+        <div class="first-col-div">
+          <div class="d-flex align-items-center first-prt">
             <div class="green-dot"></div>
             <p class="green-dot-text">build everything</p>
           </div>
-          <p class="heading4 mb-3">
-            Build amazing websites and landing pages with ease using Landingpro
+
+          <p class="heading3">
+            Amazingly flexible, customizable and easy to use
+          </p>
+          <p class="para1">
+            Build high quality landing pages using Landingpro now.
+          </p>
+          <button class="get-started-button bg-primary text-white">
+            Get Started
+          </button>
+          <div class="d-flex ellipse-and-para">
+            <img src="./images/Ellipse 3.png" alt="" class="ellipse-image" />
+            <img src="./images/Ellipse 3 copy.png" alt="" class="ellipse ellipse-image" />
+            <img src="./images/Ellipse 3 copy 2.png" alt="" class="ellipse ellipse-image" />
+            <p class="para-2">
+              Need help?
+              <span class="text-primary">Contact our Experts</span> Tell us
+              about your project.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 sec-col">
+        <div class="sec-col-div">
+          <img src="./images/main-image1.png" alt="" class="main-image" />
+          <img src="./images/abstract.png" alt="" class="abstract-round" />
+          <img src="./images/abstract-2.png" alt="" class="abstract-rect" />
+        </div>
+      </div>
+    </div>
+
+    <div class="row row1-dms">
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-4-dms text-center">
+          <img src="./images/star.png" alt="" class="star mb-3" />
+          <p class="number mt-3">4.86</p>
+          <p class="number-caption">
+            Out of 5 stars from 3896 reviews on google platform
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-4-dms text-center">
+          <img src="./images/profile.png" alt="" class="star mb-3" />
+          <p class="number mt-3">364</p>
+          <p class="number-caption">
+            Client testimonials received in year 2021
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-4-dms text-center">
+          <img src="./images/office-bag.png" alt="" class="star1 mb-3" />
+          <p class="number mt-3">45M+</p>
+          <p class="number-caption">
+            Revenue generated through new projects and marketing
           </p>
         </div>
       </div>
     </div>
 
-    <!-- <script src="./libs/jquery-3.6.0.min.js"></script> -->
-    <script src="./libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    <!--Second section-->
+
+    <div class="row row2-dms align-items-center">
+      <div class="col-lg-6 row2-first-col">
+        <div class="phone">
+          <img src="./images/phone.png" alt="" class="phone-image" />
+        </div>
+      </div>
+      <div class="col-lg-6 row2-sec-col">
+        <div>
+          <div class="d-flex align-items-center first-prt">
+            <div class="green-dot"></div>
+            <p class="green-dot-text">build everything</p>
+          </div>
+          <p class="heading4 mb-3">
+            Build amazing websites and landing pages with ease
+          </p>
+          <p class="heading4-text mt-3 mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqa. Quis
+            ipsum suspendisse ultrices gravida
+          </p>
+          <div class="tick-text-container d-flex flex-wrap">
+            <div class="d-flex align-items-center mb-3 tick-and-text">
+              <img src="./images/Tick.png" alt="" />
+              <p class="tick-text">Easy drag and drop</p>
+            </div>
+            <div class="d-flex align-items-center mb-3 tick-and-text">
+              <img src=" ./images/Tick.png" alt="" />
+              <p class="tick-text">Create new sections</p>
+            </div>
+            <div class="d-flex align-items-center mb-3 tick-and-text">
+              <img src=" ./images/Tick.png" alt="" />
+              <p class="tick-text">Powered by Elementor</p>
+            </div>
+            <div class="d-flex align-items-center mb-3 tick-and-text">
+              <img src=" ./images/Tick.png" alt="" />
+              <p class="tick-text">Ready to use</p>
+            </div>
+          </div>
+          <button class="get-started-button bg-primary text-white">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Third section-->
+
+    <div class="row row3-dms justify-content-center">
+      <div class="col-10 text-center">
+        <div class="d-flex align-items-center justify-content-center first-prt">
+          <div class="green-dot"></div>
+          <p class="green-dot-text">build everything</p>
+        </div>
+        <p class="heading4">
+          Build amazing websites and landing pages with ease using Landingpro
+        </p>
+      </div>
+    </div>
+
+
+    <!--Fourth section-->
+    <div class="row row4-dms">
+      <!-- <div> -->
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-4-dms text-center">
+          <img src="./images/premade-design.png" alt="" class="premade mb-3" />
+          <p class="image-caption mt-3">Beautiful designs premade</p>
+          <p class="image-text">
+            Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="start-button border-0 bg-white text-primary">Get Started</button>
+            <i class="fas fa-angle-right text-primary ps-1"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-4-dms text-center">
+          <img src="./images/Triangles.png" alt="" class="triangle mb-3" />
+          <p class="image-caption mt-3">Coded with much care and notes</p>
+          <p class="image-text">
+            Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="start-button border-0 bg-white text-primary">Get Started</button>
+            <i class="fas fa-angle-right text-primary ps-1"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-4-dms text-center">
+          <img src="./images/demos.png" alt="" class="demo mb-3" />
+          <p class="image-caption mt-3">Amazing demos included</p>
+          <p class="image-text">
+            Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="start-button border-0 bg-white text-primary">Get Started</button>
+            <i class="fas fa-angle-right text-primary ps-1"></i>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+
+    <!--Fifth section-->
+
+    <div class="row row5-dms justify-content-center">
+      <div class="col-10 text-center">
+        <div>
+          <img src="./images/Smart Object.png" alt="" class="smart-object">
+          <p class="smart-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqa. Sed do eiusmod tempor
+            incididunt ut
+            labore et dolore magna. Sed do eiusmod tempor incididunt.</p>
+          <img src="./images/Jonathan.png" alt="" class="jonathan-image mb-2">
+          <p class="jonathan">Jonathan Diesel</p>
+          <p class="jon-profile">Happy Customer, Apple inc</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!--Sixth section-->
+  <div class="container-fluid container3">
+    <div class="row row6-dms">
+
+      <div class="col-lg-6 col-6-one">
+        <div class="col6-frst">
+
+          <div class="d-flex align-items-center first-prt">
+            <div class="green-dot"></div>
+            <p class="green-dot-text">we can help</p>
+          </div>
+          <div class="sec-prt">
+            <p class="main-text">Let’s discuss about your project and take it the next level.</p>
+            <section class="d-flex flex-wrap">
+              <div class="d-flex flex-column flex-1">
+                <p>Phone</p>
+                <p>+323-25-8964</p>
+              </div>
+
+              <div class="d-flex flex-column flex-2">
+                <p>Email</p>
+                <p>me@landingpro.com</p>
+              </div>
+
+              <div class="d-flex flex-column flex-3">
+                <p>Location</p>
+                <p>Mark Avenue, Dalls Road, New York</p>
+              </div>
+            </section>
+          </div>
+          <div>
+            <p class="trust-by">Trusted by</p>
+            <div class="d-flex flex-wrap">
+              <img src="./images/googlepay.png" alt="" class="googlepay pay-method">
+              <img src="./images/payJunction.png" alt="" class="pay-junc pay-method">
+              <img src="./images/stripe.png" alt="" class="stripe pay-method">
+              <img src="./images/wise.png" alt="" class="wise">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-6-two">
+        <div class="col6-sec-form">
+          <form action="/action_page.php" class="form-sect">
+            <p class="start-project">Start the project</p>
+            <div class="form1">
+              <input type="text" id="fname" name="fname" placeholder="First Name" class="box firstname">
+              <input type="text" id="lname" name="lname" placeholder="Last Name" class="box lastname">
+              <br>
+              <input type="email" id="email" name="email" placeholder="youremail@website.com" class="e-mail-id">
+              <br>
+              <input type="text" name="country" id="country" placeholder="Country" class="cntry">
+              <br>
+              <input type="text" name="message" id="message" placeholder="Let us know about your Project" class="msg">
+              <br>
+
+              <div class="d-flex checkbox-flex">
+                <input type="checkbox" name="T&C" id="T&C" class="check">
+                <label for="T&C" class="checkbox-text">I have read and acknowledge the <span class="text-primary">Terms
+                    and
+                    Conditions</span></label>
+              </div>
+              <input type="submit" value="Submit Inquiry" class="bg-primary text-white form-submit-button">
+            </div>
+          </form>
+
+
+          <img src="./images/abstract.png" alt="" class="img-round">
+          <img src="./images/abstract-2.png" alt="" class="img-rect">
+
+
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <!--Seventh section-->
+  <div class="container-fluid container4">
+    <div class="row row7-dms">
+      <div class="col-12">
+        <div class="d-flex align-items-center">
+          <img src="./images/logo.png" alt="" class="logo2">
+          <i class="fab fa-twitter twitter"></i>
+          <i class="fab fa-facebook fb"></i>
+          <i class="fab fa-linkedin li"></i>
+        </div>
+      </div>
+    </div>
+
+    <!--eighth section-->
+
+    <div class="row row8-dms">
+      <div class="col-lg-2 col-2-one">
+        <p class="fw-bold">Features</p>
+        <br>
+        <p>Online Payments</p>
+        <p>Financial Projections</p>
+        <p>Bookkeeping</p>
+        <p>Banking</p>
+      </div>
+
+      <div class="col-lg-2 col-2-two">
+        <p class="fw-bold">Resources</p>
+        <br>
+
+        <p>Documentation</p>
+        <p>Integrations</p>
+        <p>API Reference</p>
+        <p>Support</p>
+        <p>Help</p>
+      </div>
+
+      <div class="col-lg-2 col-2-three">
+        <p class="fw-bold">Platform</p>
+        <br>
+        <p>Infrastructure</p>
+        <p>Certifications</p>
+        <p>Licenses</p>
+        <p>Terms and conditions</p>
+        <p>Legal</p>
+      </div>
+
+      <div class="col-lg-5 col-5-four">
+        <p class="fw-bold">Sign up for updates</p>
+        <div class="full-input d-flex align-items-center">
+          <input type="email" id="email" name="email" class="email-id border-0" placeholder="Enter your email address">
+          <i class="far fa-paper-plane plane"></i>
+        </div>
+        <p class="copyright">© Copyright 2021. All rights reserved by LandingPro Theme.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- <script src="./libs/jquery-3.6.0.min.js"></script> -->
+  <script src="./libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
