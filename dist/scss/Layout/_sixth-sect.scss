@@ -171,9 +171,12 @@
       margin-right: auto;
     }
   }
+  .img-rect {
+    left: 225px;
+  }
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 500px) {
   .col-6-two {
     .col6-sec-form {
       .form-sect {

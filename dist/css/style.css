@@ -11788,8 +11788,12 @@ body {
     margin-top: 100px;
     margin-right: auto;
   }
+
+  .img-rect {
+    left: 225px;
+  }
 }
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 500px) {
   .col-6-two .col6-sec-form .form-sect .start-project {
     padding: 45px 0 0 15px;
   }
