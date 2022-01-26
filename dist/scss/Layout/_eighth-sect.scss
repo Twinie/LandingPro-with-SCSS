@@ -14,14 +14,23 @@
     .col-2-one {
       max-width: 238px;
       width: 100%;
+      .features {
+        margin-bottom: 25px;
+      }
     }
     .col-2-two {
       max-width: 246px;
       width: 100%;
+      .resources {
+        margin-bottom: 25px;
+      }
     }
     .col-2-three {
       max-width: 165px;
       width: 100%;
+      .platform {
+        margin-bottom: 25px;
+      }
     }
     .col-5-four {
       max-width: 361px;
@@ -40,8 +49,11 @@
         padding: 0 18px;
         margin-top: 30px;
         margin-bottom: 35px;
+        .email-id {
+          width: 220px;
+        }
         .plane {
-          margin-left: 130px;
+          margin-left: 90px;
         }
       }
       .copyright {
@@ -64,7 +76,7 @@
         margin-top: 100px;
       }
       .col-2-two {
-        max-width: 125px;
+        max-width: 145px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -73,7 +85,7 @@
       .col-2-three {
         max-width: 160px;
         width: 100%;
-        margin-left: auto;
+        margin-left: 0;
         margin-right: auto;
         margin-top: 100px;
       }
@@ -82,6 +94,49 @@
         margin-right: auto;
         margin-top: 100px;
       }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .container4 {
+    .row8-dms {
+      .col-2-three {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container4 {
+    .row8-dms {
+      .col-2-one {
+        max-width: 190px;
+        width: 100%;
+        // margin-left: auto;
+        // margin-right: auto;
+        // margin-top: 100px;
+      }
+      .col-2-two {
+        max-width: 190px;
+        width: 100%;
+        // margin-left: auto;
+        // margin-right: auto;
+        // margin-top: 100px;
+      }
+      .col-2-three {
+        max-width: 190px;
+        width: 100%;
+        margin-left: auto;
+        // margin-right: auto;
+        // margin-top: 100px;
+      }
+      // .col-5-four {
+      //   margin-left: auto;
+      //   margin-right: auto;
+      //   margin-top: 100px;
+      // }
     }
   }
 }
