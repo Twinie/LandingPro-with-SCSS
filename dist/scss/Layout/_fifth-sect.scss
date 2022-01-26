@@ -1,0 +1,36 @@
+.row5-dms {
+  padding-top: 91px;
+  .col-10 {
+    .smart-object {
+      padding-bottom: 70px;
+    }
+    .smart-text {
+      font-size: 21px;
+      font-weight: bold;
+      padding-bottom: 50px;
+    }
+    .jonathan {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .jon-profile {
+      color: #8fa3b4;
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 90px;
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .row5-dms {
+    .col-10 {
+      .smart-object {
+        width: 100%;
+      }
+    }
+  }
+}

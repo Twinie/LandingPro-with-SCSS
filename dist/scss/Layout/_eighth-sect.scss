@@ -1,0 +1,114 @@
+.container4 {
+  .row8-dms {
+    max-width: 1140px;
+    width: 100%;
+    padding-top: 84px;
+    border-top: #d3dde5 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    // justify-content: center;
+    .col-lg-2 {
+      padding: 0;
+      //   padding-right: 30px;
+    }
+    .col-2-one {
+      max-width: 238px;
+      width: 100%;
+    }
+    .col-2-two {
+      max-width: 246px;
+      width: 100%;
+    }
+    .col-2-three {
+      max-width: 165px;
+      width: 100%;
+    }
+    .col-5-four {
+      max-width: 361px;
+      width: 100%;
+      margin-left: 100px;
+    }
+    .col-lg-5 {
+      padding: 0;
+
+      .full-input {
+        width: 100%;
+        max-width: 360px;
+        height: 50px;
+        border: rgb(212, 207, 207) 1px solid;
+        border-radius: 6px;
+        padding: 0 18px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        .plane {
+          margin-left: 130px;
+        }
+      }
+      .copyright {
+        width: 100%;
+        max-width: 360px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .container4 {
+    .row8-dms {
+      .col-2-one {
+        max-width: 160px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+      }
+      .col-2-two {
+        max-width: 125px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+      }
+      .col-2-three {
+        max-width: 160px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+      }
+      .col-5-four {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .container4 {
+    .row8-dms {
+      .col-2-one {
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 0;
+      }
+      .col-2-two {
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 0;
+      }
+      .col-2-three {
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 0;
+      }
+      .col-5-four {
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 0;
+      }
+    }
+  }
+}
