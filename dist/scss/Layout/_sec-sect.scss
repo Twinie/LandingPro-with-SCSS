@@ -5,7 +5,10 @@
   .row2-first-col {
     padding: 0 45px 0 0px;
     .phone {
-      width: 495px;
+      .phone-image {
+        max-width: 505px;
+        width: 100%;
+      }
     }
   }
 }
@@ -66,7 +69,11 @@
     .row2-first-col {
       padding: 0 45px 0 0px;
       .phone {
-        width: 495px;
+        max-width: 505px;
+        width: 100%;
+        .phone-image {
+          width: 100%;
+        }
       }
     }
   }
@@ -165,8 +172,10 @@
       padding: 0;
       .phone {
         width: 100%;
+        text-align: center;
         .phone-image {
           width: 100%;
+          max-width: 505px;
         }
       }
     }

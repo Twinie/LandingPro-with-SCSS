@@ -11390,8 +11390,9 @@ body {
 .row2-dms .row2-first-col {
   padding: 0 45px 0 0px;
 }
-.row2-dms .row2-first-col .phone {
-  width: 495px;
+.row2-dms .row2-first-col .phone .phone-image {
+  max-width: 505px;
+  width: 100%;
 }
 
 .row2-dms .row2-sec-col .tick-text-container {
@@ -11447,7 +11448,11 @@ body {
     padding: 0 45px 0 0px;
   }
   .row2-dms .row2-first-col .phone {
-    width: 495px;
+    max-width: 505px;
+    width: 100%;
+  }
+  .row2-dms .row2-first-col .phone .phone-image {
+    width: 100%;
   }
 }
 @media (min-width: 375px) {
@@ -11530,9 +11535,11 @@ body {
   }
   .row2-dms .row2-first-col .phone {
     width: 100%;
+    text-align: center;
   }
   .row2-dms .row2-first-col .phone .phone-image {
     width: 100%;
+    max-width: 505px;
   }
 }
 .row3-dms {
