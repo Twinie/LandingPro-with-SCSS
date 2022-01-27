@@ -11128,7 +11128,7 @@ body {
 }
 
 .navbar {
-  margin: 27px 0 67px;
+  margin: 27px 0 49px;
 }
 
 .navbar-nav .nav-item {
@@ -11145,8 +11145,9 @@ body {
 }
 
 .buy-button {
-  border-radius: 10px;
-  width: 104px;
+  border-radius: 6px;
+  width: 102px;
+  height: 46px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
@@ -11173,11 +11174,10 @@ body {
 }
 .container1-dms {
   max-width: 1140px;
-  margin-top: 40px;
 }
 
 .row-dms {
-  margin-top: 60px;
+  padding-top: 60px;
   margin-bottom: 55px;
 }
 
@@ -11215,7 +11215,7 @@ body {
   width: 165px;
   height: 48px;
   border: none;
-  border-radius: 10px;
+  border-radius: 6px;
   margin-bottom: 50px;
 }
 
@@ -11257,6 +11257,9 @@ body {
   margin-top: 55px;
   border-bottom: #eef3f8 1px solid;
   margin-bottom: 43px;
+}
+.row1-dms .col-lg-4 {
+  padding: 0 15px;
 }
 .row1-dms .col-lg-4 .col-4-dms {
   width: 305px;
@@ -11542,9 +11545,16 @@ body {
     max-width: 505px;
   }
 }
+.third-sect-cont {
+  width: 100%;
+  background-color: #f8fafc;
+}
+.third-sect-cont .container2-dms {
+  max-width: 1140px;
+}
+
 .row3-dms {
   padding-top: 175px;
-  background-color: #f8fafc;
 }
 .row3-dms .col-10 .first-prt {
   margin-bottom: 20px;
@@ -11566,11 +11576,11 @@ body {
   line-height: 42px;
   letter-spacing: 0px;
   vertical-align: -25px;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
 
 .row4-dms {
-  padding-bottom: 50px;
+  padding-bottom: 220px;
   margin-bottom: 91px;
 }
 .row4-dms .col-4-dms {

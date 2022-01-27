@@ -9,10 +9,10 @@ $desktop-max: 1200px;
 
 .container1-dms {
   max-width: map-get($container-max-widths, "xl");
-  margin-top: 40px;
+  // padding-top: 40px;
 }
 .row-dms {
-  margin-top: 60px;
+  padding-top: 60px;
   margin-bottom: 55px;
 }
 
@@ -50,7 +50,7 @@ $desktop-max: 1200px;
     width: 165px;
     height: 48px;
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-bottom: 50px;
   }
 }
@@ -97,6 +97,7 @@ $desktop-max: 1200px;
   border-bottom: #eef3f8 1px solid;
   margin-bottom: 43px;
   .col-lg-4 {
+    padding: 0 15px;
     .col-4-dms {
       width: 305px;
       height: 346px;

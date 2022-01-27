@@ -1,6 +1,13 @@
+.third-sect-cont {
+  width: 100%;
+  background-color: #f8fafc;
+  .container2-dms {
+    max-width: 1140px;
+  }
+}
 .row3-dms {
   padding-top: 175px;
-  background-color: #f8fafc;
+
   .col-10 {
     .first-prt {
       margin-bottom: 20px;
@@ -23,5 +30,5 @@
   line-height: 42px;
   letter-spacing: 0px;
   vertical-align: -25px;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
