@@ -1,15 +1,22 @@
 .container4 {
+  color: $font-color;
   .row8-dms {
     max-width: 1140px;
     width: 100%;
     padding-top: 84px;
-    border-top: #d3dde5 1px solid;
+    border-top: #e6edf3 1px solid;
     margin-left: auto;
     margin-right: auto;
     // justify-content: center;
     .col-lg-2 {
       padding: 0;
       //   padding-right: 30px;
+      p {
+        a {
+          text-decoration: none;
+          color: #8fa3b4;
+        }
+      }
     }
     .col-2-one {
       max-width: 238px;

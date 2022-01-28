@@ -8,8 +8,8 @@ $desktop-min: 992px;
 $desktop-max: 1200px;
 
 .container1-dms {
-  max-width: map-get($container-max-widths, "xl");
-  // padding-top: 40px;
+  max-width: 1140px;
+  color: $font-color;
 }
 .row-dms {
   padding-top: 60px;
@@ -42,7 +42,7 @@ $desktop-max: 1200px;
     margin-bottom: 30px;
   }
   .para1 {
-    color: #8fa3b4;
+    color: $secondary-color;
     font-size: 21px;
     margin-bottom: 30px;
   }
@@ -58,7 +58,7 @@ $desktop-max: 1200px;
 .ellipse-and-para {
   max-width: 340px;
   .para-2 {
-    color: #8fa3b4;
+    color: $secondary-color;
     font-size: 14px;
     max-width: 210px;
     margin: 0 0 0 15px;
@@ -94,7 +94,7 @@ $desktop-max: 1200px;
 }
 .row1-dms {
   margin-top: 55px;
-  border-bottom: #eef3f8 1px solid;
+  border-bottom: #e6edf3 1px solid;
   margin-bottom: 43px;
   .col-lg-4 {
     padding: 0 15px;
@@ -112,7 +112,7 @@ $desktop-max: 1200px;
       }
       .number-caption {
         font-size: 18px;
-        color: #8fa3b4;
+        color: $secondary-color;
       }
     }
   }
