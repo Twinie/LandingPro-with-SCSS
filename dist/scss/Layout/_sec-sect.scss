@@ -75,11 +75,17 @@
       }
     }
   }
+  .row2-dms {
+    .row2-sec-col {
+      padding: 0 5px 0 25px;
+    }
+  }
 }
 
 @media (min-width: 375px) {
   .row2-dms {
     .row2-sec-col {
+      padding: 0 15px;
       text-align: center;
       .first-prt {
         justify-content: center;

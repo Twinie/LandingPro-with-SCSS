@@ -11141,6 +11141,10 @@ body {
   font-size: 17px;
   color: #102d47;
 }
+.navbar-nav .nav-item .nav-link .icon-dms {
+  font-size: 14px;
+  color: #8399ac;
+}
 
 .navbar-brand {
   margin-right: 85px;
@@ -11456,9 +11460,14 @@ body {
   .row2-dms .row2-first-col .phone .phone-image {
     width: 100%;
   }
+
+  .row2-dms .row2-sec-col {
+    padding: 0 5px 0 25px;
+  }
 }
 @media (min-width: 375px) {
   .row2-dms .row2-sec-col {
+    padding: 0 15px;
     text-align: center;
   }
   .row2-dms .row2-sec-col .first-prt {
@@ -11685,10 +11694,6 @@ body {
 .container3 .row6-dms .col-6-one .col6-frst .trust-by {
   margin-top: 60px;
   margin-bottom: 25px;
-}
-.container3 .row6-dms .col-6-one .col6-frst .wise {
-  width: 75px;
-  height: 24px;
 }
 .container3 .row6-dms .col-6-one .col6-frst .pay-method {
   margin-right: 55px;
